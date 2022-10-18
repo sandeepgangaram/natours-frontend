@@ -57,6 +57,10 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+
+  /* If there is any shaky movements during animation */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .heading-primary-main {
