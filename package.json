@@ -1,0 +1,19 @@
+{
+  "name": "natours-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Natours web application.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepgangaram/natours-frontend.git"
+  },
+  "author": "Sandeep Gangaram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandeepgangaram/natours-frontend/issues"
+  },
+  "homepage": "https://github.com/sandeepgangaram/natours-frontend#readme"
+}
