@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sandeepgangaram/natours-frontend/issues"
   },
-  "homepage": "https://github.com/sandeepgangaram/natours-frontend#readme"
+  "homepage": "https://github.com/sandeepgangaram/natours-frontend#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
 }
