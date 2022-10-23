@@ -4,7 +4,7 @@
   "description": "Frontend for the Natours web application.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "csass": "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
