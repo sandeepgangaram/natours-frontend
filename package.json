@@ -4,7 +4,8 @@
   "description": "Frontend for the Natours web application.",
   "main": "index.html",
   "scripts": {
-    "csass": "sass sass/main.scss css/style.css -w"
+    "dev": "sass sass/main.scss css/style.css -w",
+    "build": "sass sass/main.scss css/style.css && postcss css/style.css --use=autoprefixer --output=css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/sandeepgangaram/natours-frontend#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss-cli": "^10.0.0",
     "sass": "^1.55.0"
   }
 }
